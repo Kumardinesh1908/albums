@@ -10,49 +10,19 @@ Building a Dynamic Albums Management App using the power of React for front-end 
 
 # Folder Structure
 The project follows the following structure:
-
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── AddAlbumButton.js
-│   │   └── UpdateAlbumButton.js
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── tailwind.css       
-├── package.json
-└── README.md
-
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── AddAlbumButton.js
-│ │ ├── UpdateAlbumButton.js
-│ ├── App.js
-│ ├── index.js
-│ └── styles/
-│ └── tailwind.css
-├── package.json
-└── README.md
-
 - `/public`: Directory containing public assets.
   - `index.html`: Main HTML file.
+  - `favicon.ico`: Favicon Icon.
 - `/src`: Source code directory.
   - `/components`: Directory for React components.
     - `AddAlbumButton.js`: Component for adding new albums.
     - `UpdateAlbumButton.js`: Component for updating album titles.
   - `App.js`: Main application component.
   - `index.js`: Entry point of the application.
-  - `/styles`: Styles directory.
-    - `tailwind.css`: Tailwind CSS configuration.
+  - `index.css`: Styles.
+- `tailwind.config.css`: Tailwind CSS configuration.
 - `package.json`: Project's package configuration.
 - `README.md`: The document you are reading right now.
-
-- The public folder contains the main HTML file and favicon Icon.
-- The src folder contains React components, App.js file, the main index.js and styles.
-- The components folder holds the React button components.
 
 # Getting Started
 Follow these steps to set up and run the project on your local machine.
