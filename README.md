@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Albums Management App
+Building a Dynamic Albums Management App using the power of React for front-end development, Tailwind CSS for styling, and Axios for handling HTTP requests.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+- Add new albums with a custom title.
+- Delete existing albums from the list.
+- Responsive and visually appealing user interface.
+- Efficient use of React and Axios for data management.
+- Utilizes Tailwind CSS for styling and layout.
 
-## Available Scripts
+# Folder Structure
+The project follows the following structure:
+/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── AddAlbumButton.js
+│   │   └── UpdateAlbumButton.js
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── tailwind.css       
+├── package.json
+└── README.md
 
-In the project directory, you can run:
+- The public folder contains the main HTML file and favicon Icon.
+- The src folder contains React components, App.js file, the main index.js and styles.
+- The components folder holds the React button components.
 
-### `npm start`
+# Getting Started
+Follow these steps to set up and run the project on your local machine.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
+- Node.js (npm will be installed with Node.js)
+  
+##Installation
+1. Clone the repository:
+bash
+git clone https://github.com/Kumardinesh1908/albums.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:
+bash
+cd albums-management-app
 
-### `npm test`
+3. Install dependencies:
+bash
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the development server:
+bash
+npm run start
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Access the app in your browser at http://localhost:3000.
+   
+# Usage
+- Click the "Add Album" button to create new albums.
+- Use the "Update" button to modify album titles.
+- Press the "Delete" button to remove albums from the list.
