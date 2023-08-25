@@ -24,6 +24,19 @@ The project follows the following structure:
 ├── package.json
 └── README.md
 
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── AddAlbumButton.js
+│ │ ├── UpdateAlbumButton.js
+│ ├── App.js
+│ ├── index.js
+│ └── styles/
+│ └── tailwind.css
+├── package.json
+└── README.md
+
 - `/public`: Directory containing public assets.
   - `index.html`: Main HTML file.
 - `/src`: Source code directory.
