@@ -24,6 +24,19 @@ The project follows the following structure:
 ├── package.json
 └── README.md
 
+- `/public`: Directory containing public assets.
+  - `index.html`: Main HTML file.
+- `/src`: Source code directory.
+  - `/components`: Directory for React components.
+    - `AddAlbumButton.js`: Component for adding new albums.
+    - `UpdateAlbumButton.js`: Component for updating album titles.
+  - `App.js`: Main application component.
+  - `index.js`: Entry point of the application.
+  - `/styles`: Styles directory.
+    - `tailwind.css`: Tailwind CSS configuration.
+- `package.json`: Project's package configuration.
+- `README.md`: The document you are reading right now.
+
 - The public folder contains the main HTML file and favicon Icon.
 - The src folder contains React components, App.js file, the main index.js and styles.
 - The components folder holds the React button components.
@@ -43,14 +56,17 @@ git clone https://github.com/Kumardinesh1908/albums.git
 2. Navigate to the project directory:
 ```bash
 cd albums-management-app
+```
 
 3. Install dependencies:
 ```bash
 npm install
+```
 
 4. Start the development server:
 ```bash
 npm run start
+```
 
 5. Access the app in your browser at http://localhost:3000.
    
