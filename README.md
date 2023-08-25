@@ -37,19 +37,19 @@ Follow these steps to set up and run the project on your local machine.
 ## Installation
 1. Clone the repository:
 ```bash
-"git clone https://github.com/Kumardinesh1908/albums.git"
+git clone https://github.com/Kumardinesh1908/albums.git
 
 2. Navigate to the project directory:
 ```bash
-"cd albums-management-app"
+cd albums-management-app
 
 3. Install dependencies:
 ```bash
-"npm install"
+npm install
 
 4. Start the development server:
 ```bash
-"npm run start"
+npm run start
 
 5. Access the app in your browser at http://localhost:3000.
    
