@@ -37,7 +37,7 @@ Follow these steps to set up and run the project on your local machine.
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Kumardinesh1908/albums.git
+git clone https://github.com/Kumardinesh1908/albums.git```
 
 2. Navigate to the project directory:
 ```bash
