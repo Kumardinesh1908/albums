@@ -59,4 +59,4 @@ npm run start
 - Press the "Delete" button to remove albums from the list.
 
 Live Demo
-Check out the live demo of the application at: https://albums-kumardinesh1908.vercel.app/
+Check out the live demo of the App: https://albums-kumardinesh1908.vercel.app/
