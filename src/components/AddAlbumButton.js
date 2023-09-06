@@ -18,8 +18,11 @@ const AddAlbumButton = ({ albums, setAlbums }) => {
                               setSelectedAddAlbum(false);
                         })
                         .catch(error => {
-                              console.error('Error adding album:', error);
+                              alert('Error adding album:', error);
                         });
+            }
+            else{
+                  alert("Please write something in input box to add an item.");
             }
       };
 

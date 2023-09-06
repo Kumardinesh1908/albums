@@ -22,9 +22,12 @@ const UpdateAlbumButton = ({ albumId, albums, setAlbums }) => {
                     setUpdatedAlbumTitle('');
                 })
                 .catch(error => {
-                    console.error('Error updating album:', error);
+                    alert('Error updating album:', error);
                 });
-        };
+        }
+        else{
+            alert("Please write something in input box to update an item.");
+      }
     };
 
     // Ref for the updateAlbumButton panel
