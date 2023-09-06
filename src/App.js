@@ -19,20 +19,20 @@ function App() {
         setAlbums(response.data);
       })
       .catch(error => {
-        console.error('Error fetching albums:', error);
+        alert('Error fetching albums : ' + error.message);
       });
   };
 
   // Function to handle delete album and make a DELETE request to an API.
   const deleteAlbum = (albumId) => {
-    axios.delete(`https://jsonplaceholder.typicode.com/albums/${albumId}`)
+    axios.delete(`https://jsonplaceholder.typicode.com/album/${albumId}`)
       .then(() => {
         // Update the albums list by filtering out the deleted album
         const updatedAlbums = albums.filter(album => album.id !== albumId);
         setAlbums(updatedAlbums);
       })
       .catch(error => {
-        console.error('Error deleting album:', error);
+        alert('Error deleting album : ' + error.message);
       });
   };
 
