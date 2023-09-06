@@ -10,7 +10,7 @@ const AddAlbumButton = ({ albums, setAlbums }) => {
       // Function to add a new album to the list and make a POST request to an API.
       const addAlbum = () => {
             if (newAlbumTitle !== '') {
-                  axios.post('https://jsonplaceholder.typicode.com/album', { title: newAlbumTitle })
+                  axios.post('https://jsonplaceholder.typicode.com/albums', { title: newAlbumTitle })
                         .then(response => {
                               // Update the albums list with the new album data.
                               setAlbums([...albums, response.data]);

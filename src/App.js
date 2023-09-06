@@ -25,7 +25,7 @@ function App() {
 
   // Function to handle delete album and make a DELETE request to an API.
   const deleteAlbum = (albumId) => {
-    axios.delete(`https://jsonplaceholder.typicode.com/album/${albumId}`)
+    axios.delete(`https://jsonplaceholder.typicode.com/albums/${albumId}`)
       .then(() => {
         // Update the albums list by filtering out the deleted album
         const updatedAlbums = albums.filter(album => album.id !== albumId);

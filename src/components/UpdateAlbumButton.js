@@ -9,7 +9,7 @@ const UpdateAlbumButton = ({ albumId, albums, setAlbums }) => {
     // Function to handle update album and make a PUT request to an API.
     const updateAlbum = () => {
         if (updatedAlbumTitle !== "") {
-            axios.put(`https://jsonplaceholder.typicode.com/album/${albumId}`,
+            axios.put(`https://jsonplaceholder.typicode.com/albums/${albumId}`,
                 { title: updatedAlbumTitle, }
             )
                 .then(response => {
